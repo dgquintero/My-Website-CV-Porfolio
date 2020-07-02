@@ -6,7 +6,7 @@ module.exports = {
   skills: [
     {
       name: 'Python',
-      level: 70
+      level: 80
     },
     {
       name: 'C',
@@ -14,19 +14,23 @@ module.exports = {
     },
     {
       name: 'HTML',
-      level: 50
+      level: 70
     },
     {
       name: 'CSS',
-      level: 50
+      level: 70
     },
     {
       name: 'Javascript',
-      level: 40
+      level: 60
+    },
+    {
+      name: 'R',
+      level: 70
     },
     {
       name: 'Git',
-      level: 70
+      level: 80
     }
   ]
 }
