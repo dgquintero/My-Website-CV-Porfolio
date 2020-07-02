@@ -14,7 +14,7 @@ const Repositories = () => {
         if(data) {
             repos = JSON.parse(data)
             setRepoCount(repos.length)
-            repos = repos.slice(1, 6)
+            repos = repos.slice(4, 10)
             return setRepo(repos)
         } 
 
@@ -23,7 +23,7 @@ const Repositories = () => {
             repos = await response.json()
             setRepoCount(repos.length)
             sessionStorage.setItem('repo', JSON.stringify(repos))
-            repos = repos.slice(1, 9)
+            repos = repos.slice(4, 10)
             setRepo(repos)
         }
 
