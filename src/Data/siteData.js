@@ -1,8 +1,8 @@
 module.exports = {
 
-  aboutDescription: `Software developer and industrial engineer passionate about Tech and Data.
+  aboutDescription: `Software Developer and Industrial Engineer passionate about Tech and Data.
    Working on problem-solving through creativity and critical thinking. 
-   I believe in the use of tech as a game changer of our society. `,
+   I believe in the use of tech as a game changer of our society.`,
   skills: [
     {
       name: 'Python',
