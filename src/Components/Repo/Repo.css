@@ -1,0 +1,32 @@
+.repositories__content {
+  width: 82%; }
+  .repositories__content .repo__link {
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    text-decoration: none; }
+  .repositories__content p {
+    width: 100%;
+    margin: 0;
+    font-size: 14px; }
+  .repositories__content .repositories__repo-date {
+    color: #F0F0F0;
+    font-size: 12px; }
+  .repositories__content hr {
+    margin: 2.5px 0 5px; }
+
+@media screen and (max-width: 1024px) {
+  .repositories__content {
+    width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .repositories__content .repo__link, .repositories__content a {
+    font-size: 14px; }
+  .repositories__content p {
+    font-size: 12px; }
+  .repositories__content .repositories__repo-date {
+    font-size: 10px; } }

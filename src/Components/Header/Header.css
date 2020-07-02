@@ -1,0 +1,60 @@
+.header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header .me {
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    text-decoration: none; }
+    .header .me .me__image {
+      margin-top: 5px;
+      max-width: 65px;
+      border-radius: 50px;
+      box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.75); }
+    .header .me .who {
+      max-width: 100%;
+      margin-left: 2em;
+      line-height: 2em; }
+      .header .me .who h4 {
+        font-size: 1em;
+        font-weight: 400; }
+      .header .me .who p {
+        width: 100%;
+        font-size: 0.8em; }
+  .header .menuContainer {
+    margin-right: 2.5%; }
+    .header .menuContainer .menu__list {
+      display: flex; }
+      .header .menuContainer .menu__list a, .header .menuContainer .menu__list li {
+        margin: 0;
+        padding: 0 1.25em;
+        text-decoration: none; }
+      .header .menuContainer .menu__list .menu__list--item {
+        font-size: 18px; }
+      .header .menuContainer .menu__list .menu__list--item, .header .menuContainer .menu__list li:nth-child(3) {
+        padding-right: 0; }
+
+@media screen and (max-width: 768px) {
+  .header .me .me__image {
+    max-width: 50px; }
+  .header .me .who h4 {
+    font-size: 0.8em; }
+  .header .me .who p {
+    font-size: 0.6em; }
+  .header .menuContainer {
+    display: none; }
+  .header .buttonContainer {
+    margin-right: 8%; }
+    .header .buttonContainer button {
+      display: block; } }
+
+@media screen and (max-width: 425px) {
+  .header .me .me__image {
+    max-width: 50px; }
+  .header .me .who h4 {
+    font-size: 0.6em; }
+  .header .buttonContainer {
+    margin-right: 2.5%; } }

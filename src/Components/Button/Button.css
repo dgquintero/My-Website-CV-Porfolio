@@ -1,0 +1,16 @@
+.header .buttonContainer {
+  margin-right: 8%; }
+  .header .buttonContainer button {
+    border: none;
+    color: whitesmoke;
+    outline: none;
+    display: none;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-color: Transparent; }
+
+@media screen and (max-width: 425px) {
+  .buttonContainer {
+    margin-right: 2.5%; } }

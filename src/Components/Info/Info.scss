@@ -1,0 +1,39 @@
+.infoContainer {
+    height: 70vh;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .infoContent {
+        width: 50%;
+        padding: 10% 0;
+
+        h1 {
+            margin: 1em 0;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        p {
+            margin: 1em 0;
+            text-align: center;
+        }
+
+        .mailTo, a {
+            margin: 1em 0;
+            display: flex;
+            font-weight: 400;
+            text-decoration: none;
+            justify-content: center;
+
+            .mailIcon {
+                margin-left: 10px;
+            }
+
+        }
+
+    }
+
+}

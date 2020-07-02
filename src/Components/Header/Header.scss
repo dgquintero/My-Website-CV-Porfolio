@@ -1,0 +1,135 @@
+
+.header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .me {
+        width: 100%;
+        display: flex;
+        margin-left: 10%;
+        align-items: center;
+        text-decoration: none;
+        
+        .me__image {
+            margin-top: 5px;
+            max-width: 65px;
+            border-radius: 50px;
+            box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+        }
+
+        .who {
+            max-width: 100%;
+            margin-left: 2em;
+            line-height: 2em;
+
+            h4 {
+                font-size: 1em;
+                font-weight: 400;
+            }
+
+            p {
+                width: 100%;
+                font-size: 0.8em;
+            }
+
+        }
+
+    }
+
+    .menuContainer {
+        margin-right: 2.5%;
+
+        .menu__list {
+            display: flex;
+
+            a, li {
+                margin: 0;
+                padding: 0 1.25em;
+                text-decoration: none;
+            }
+
+            .menu__list--item {
+                font-size: 18px;
+            }
+
+            .menu__list--item,li:nth-child(3) {
+                padding-right: 0;
+              }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+
+        .me {
+
+            .me__image {
+                max-width: 50px;
+            }
+
+            .who {
+    
+                h4 {
+                    font-size: 0.8em;
+                }
+    
+                p {
+                    font-size: 0.6em;
+                }
+    
+            }
+    
+        }
+
+        .menuContainer {
+            display: none;    
+        }
+        
+        .buttonContainer {
+            margin-right: 8%;
+
+            button {
+                display: block;
+            }
+        
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .header {
+
+        .me {
+
+            .me__image {
+                max-width: 50px;
+            }
+
+            .who {
+    
+                h4 {
+                    font-size: 0.6em;
+                }
+
+            }
+    
+        }
+
+        .buttonContainer {
+            margin-right: 2.5%;
+        }
+
+    }
+
+}
+

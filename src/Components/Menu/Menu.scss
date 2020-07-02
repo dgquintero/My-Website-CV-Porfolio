@@ -1,0 +1,84 @@
+#flyoutMenu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.7s cubic-bezier(0, .52, 0, 1);
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  #flyoutMenu.hide {
+    transform: translate3d(100vw, 0, 0);
+  }
+  
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+
+  .menu__header {
+    display: flex;
+    height: 15vh;
+    justify-content: flex-end;
+
+    .closeNav {
+      color: #F0F0F0;
+      margin-right: 8%;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      font-size: 50px;
+      font-weight: 300;
+      background-color: #141414;
+    }
+
+  }
+  
+  .box {
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    ul {
+      margin-top: 3rem;
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      height: 100%;
+      font-size: 40px;
+    }
+    
+    li a {
+      text-decoration: none;
+      font-size: 22.5px;
+      font-weight: 300;
+      line-height: 6em;
+      cursor: pointer;
+    }
+    
+    a {
+      display: inline-block;
+      position: relative;
+    }
+
+    // .smContainer {
+    //   height: 30%;
+    //   display: flex;
+    //   align-items: flex-end;
+      
+    //   a {
+    //     font-size: 25px;
+    //     padding: 0 1em;
+    //   }
+
+    // }
+
+  }
+  

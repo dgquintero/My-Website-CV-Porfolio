@@ -1,0 +1,25 @@
+.infoContainer {
+  height: 70vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .infoContainer .infoContent {
+    width: 50%;
+    padding: 10% 0; }
+    .infoContainer .infoContent h1 {
+      margin: 1em 0;
+      text-align: center;
+      font-weight: 400; }
+    .infoContainer .infoContent p {
+      margin: 1em 0;
+      text-align: center; }
+    .infoContainer .infoContent .mailTo, .infoContainer .infoContent a {
+      margin: 1em 0;
+      display: flex;
+      font-weight: 400;
+      text-decoration: none;
+      justify-content: center; }
+      .infoContainer .infoContent .mailTo .mailIcon, .infoContainer .infoContent a .mailIcon {
+        margin-left: 10px; }

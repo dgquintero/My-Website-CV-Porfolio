@@ -1,0 +1,33 @@
+.reposContainer {
+  padding: 0 10%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+  .reposContainer h1 {
+    width: 82%;
+    margin-bottom: 1.5%;
+    font-size: 24px;
+    font-weight: 400; }
+  .reposContainer .repositories__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
+    .reposContainer .repositories__container .linkToRepos {
+      font-size: 12px;
+      margin-top: 1.25em;
+      text-decoration: none; }
+
+@media screen and (max-width: 1024px) {
+  .reposContainer h1 {
+    font-size: 20px;
+    width: 100%; }
+  .reposContainer .repositories__container {
+    width: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .reposContainer h1 {
+    font-size: 18px; } }
