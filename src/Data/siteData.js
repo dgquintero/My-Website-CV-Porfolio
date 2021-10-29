@@ -5,11 +5,11 @@ module.exports = {
    I believe in the use of tech as a game changer of our society.`,
   skills: [
     {
-      name: 'Python',
+      name: 'NodeJs',
       level: 80
     },
     {
-      name: 'C',
+      name: 'Express',
       level: 60
     },
     {
@@ -25,11 +25,11 @@ module.exports = {
       level: 60
     },
     {
-      name: 'R',
+      name: 'Git',
       level: 70
     },
     {
-      name: 'Git',
+      name: 'Github',
       level: 80
     }
   ]
